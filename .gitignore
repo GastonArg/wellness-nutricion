@@ -1,0 +1,28 @@
+
+# .NET
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# Node / React
+**/node_modules/
+**/dist/
+**/build/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración local
+**/appsettings.Development.json
+**/appsettings.Local.json
